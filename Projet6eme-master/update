@@ -1,0 +1,84 @@
+Veuillez mettre ci-dessus toutes les modifications sous le format suivant:
+
+Prénom - 01/01/00
+
+  --------------------------------
+
+  Justin - 07/05/19
+  -Amélioration des KeyBindings dans la classe Affichage
+  -Ajout du bouton "menu" sur le HUD en jeu
+  -Ajout d'image pour le bouton "menu"
+  -Suppression d'images inutiles
+  Note: En cas de problème avec la classe HUD, redémarrer Eclipse pour la rafraichir
+  
+  -----------------------------------
+  
+  Mathieu - 07/05/19
+  -Ajout du patch Menu v0.1 dans les pull request (voir dans pull request pour le code)
+  Note: Patch important a mettre ! Maj. des Menu
+  
+  ------------------------------------
+
+  Justin - 08/05/19
+  -Mise à jour des classes App, Affichage, jeu et HUD
+  -Ajout de la classe Menu
+  -Mise en un seul JFrame du Programme
+  -Correction des bugs d'affichage sur le menu
+  -Ajout d'un bouton retour en partie
+  Note: Le JLabel avec image ne fonctionne plus sur la classe HUD, il a été remplacé par un JButton
+  
+  ------------------------------------
+  
+  Justin - 10/05/19
+  -Renommage de la classe "Affichage" en "JeuPanel" pour plus de cohérence 
+  
+  ------------------------------------
+  
+  Mathieu - 11/05/19
+  -Conversion de la classe "Option" de JFrame en JPanel
+  -Unification des options avec l'application
+  
+  ------------------------------------
+  
+  Justin - 15/05/19
+  -Mise à jour de la classe "JeuPanel": ajout des KeyBinding pour les tirs
+  -Ajout du JComponent "Player2"
+  
+  ------------------------------------
+
+  Justin - 22/05/19
+  -Refonte des contrôle: prise en charge de plusieurs input
+  -Ajout du joueur 2
+  
+  ------------------------------------
+  
+  Justin - 26/05/19
+  -Changement des boutons dans le menu principal
+  -Les boutons changent quand on passe la souris dessus
+  
+  ------------------------------------
+  
+  Justin - 28/05/19
+  -Changement de nom de variable dans les JCOMPONENT pour les joueurs
+  -Ajout du laser lors du tir
+  -Ajout des hitbox
+  
+  ------------------------------------
+  
+  Justin - 30/05/19
+  -Refonte du HUD
+  
+  ------------------------------------
+  
+  Mathieu - 01/06/19
+  -Mise en lien du HUD avec les variables ENERGIE des joueur
+  -Blocage du jeu à la fin d'une partie
+  -Lecture des touches depuis un fichier texte
+  -Ajout de classe et enum pour la lecture de la configuration des touches
+  
+  ------------------------------------
+  
+  Justin - 01/06/19
+  -Refonte de la classe CREDIT
+  
+  ------------------------------------

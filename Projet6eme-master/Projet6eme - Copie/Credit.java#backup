@@ -1,0 +1,41 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Credit extends JFrame implements ActionListener, KeyListener{
+   private JButton close;
+   public boolean affiche = false;
+    
+   // public void main(){
+        // new Credit();
+   // }
+    
+   public Credit(){
+       super("Crédit");
+       this.setPreferredSize(new Dimension(500,500));
+       
+       
+       JPanel jpcredit = new JPanel();
+       JButton jbquit = new JButton("Fermer");
+       jbquit.addActionListener(this);
+       jpcredit.add(jbquit);
+       
+       this.addKeyListener(this);
+       this.setContentPane(jpcredit);
+       this.pack();
+       this.setResizable(false);
+       this.setLocationRelativeTo(null);
+       this.setVisible(true);
+   }
+   
+   public void actionPerformed(ActionEvent ae){
+       
+   }
+   
+   public void keyReleased(KeyEvent ke){}
+   public void keyPressed(KeyEvent ke){}
+   public void keyTyped(KeyEvent ke){
+       System.out.println("C'est bon !");
+   }
+
+}

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Credit
+comment1.params=
+comment1.target=Credit()
+comment2.params=ae
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=ke
+comment3.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment4.params=ke
+comment4.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment5.params=ke
+comment5.target=void\ keyTyped(java.awt.event.KeyEvent)
+numComments=6
