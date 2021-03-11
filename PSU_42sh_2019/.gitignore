@@ -1,0 +1,7 @@
+*.o
+*.gcno
+*.gcda
+42sh
+*.a
+NormEZ.rb
+include/*.h
